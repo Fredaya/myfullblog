@@ -1,9 +1,9 @@
 <?php
 
-$host = 'qwinhappiness.com';
-$user = 'qwinhapp';
-$pass = 'Fredaya46567631419';
-$db_name = 'qwinhapp_poll';
+$host = 'localhost';
+$user = 'root';
+$pass = '';
+$db_name = 'blog';
 
 $conn = new MySQLi($host, $user, $pass, $db_name);
 
